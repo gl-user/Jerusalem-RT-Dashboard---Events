@@ -1,0 +1,103 @@
+2023-11-27 03:35:42,004 - INFO - Log file removed D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\log_2023-10-21.txt
+2023-11-27 03:35:42,005 - INFO - Log file removed D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\log_2023-10-22.txt
+2023-11-27 03:35:42,005 - INFO - Searching for zip files in folder.
+2023-11-27 03:35:42,051 - ERROR - Error connecting to the database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgis_siri" does not exist
+
+2023-11-27 03:35:42,052 - ERROR - Error occurred: Unable to connect to database.
+Traceback (most recent call last):
+  File "D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\data_loader.py", line 344, in <module>
+    database_connection.test_connection()
+  File "D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\data_loader.py", line 101, in test_connection
+    raise Exception("Unable to connect to database.")
+Exception: Unable to connect to database.
+2023-11-27 03:35:59,770 - INFO - Searching for zip files in folder.
+2023-11-27 03:35:59,816 - ERROR - Error connecting to the database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgis_siri" does not exist
+
+2023-11-27 03:35:59,816 - ERROR - Error occurred: Unable to connect to database.
+Traceback (most recent call last):
+  File "D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\data_loader.py", line 344, in <module>
+    database_connection.test_connection()
+  File "D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\data_loader.py", line 101, in test_connection
+    raise Exception("Unable to connect to database.")
+Exception: Unable to connect to database.
+2023-11-27 03:36:13,029 - INFO - Searching for zip files in folder.
+2023-11-27 03:36:13,163 - INFO - Formatted Date:20231127 for file_name, israel-public-transportation-2023-11-27.zip
+2023-11-27 03:36:13,163 - ERROR - Error occurred: File is not a zip file
+Traceback (most recent call last):
+  File "D:\Data Engineering Project\Tasks\first_task\src\updated_scripts\GTFSSiteUpload\data_loader.py", line 357, in <module>
+    zf = zipfile.ZipFile(tripid_zip_file, 'r')
+  File "C:\Users\Ayaz\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1267, in __init__
+    self._RealGetContents()
+  File "C:\Users\Ayaz\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1334, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2023-11-27 03:37:18,156 - INFO - Searching for zip files in folder.
+2023-11-27 03:37:18,389 - INFO - Formatted Date:20231127 for file_name, israel-public-transportation-2023-11-27.zip
+2023-11-27 03:37:18,399 - INFO - Reading Rows from files...
+2023-11-27 03:37:18,402 - INFO - Formatting Rows..,36.
+2023-11-27 03:37:18,402 - ERROR - 1/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,402 - ERROR - 2/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,404 - ERROR - 3/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,404 - ERROR - 4/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,404 - ERROR - 5/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,404 - ERROR - 6/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,406 - ERROR - 7/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,407 - ERROR - 8/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,408 - ERROR - 9/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,408 - ERROR - 10/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,409 - ERROR - 11/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,409 - ERROR - 12/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,410 - ERROR - 13/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,411 - ERROR - 14/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,412 - ERROR - 15/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,413 - ERROR - 16/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,413 - ERROR - 17/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,414 - ERROR - 18/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,414 - ERROR - 19/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,415 - ERROR - 20/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,415 - ERROR - 21/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,416 - ERROR - 22/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,416 - ERROR - 23/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,417 - ERROR - 24/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,417 - ERROR - 25/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,418 - ERROR - 26/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,418 - ERROR - 27/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,419 - ERROR - 28/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,421 - ERROR - 29/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,422 - ERROR - 30/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,422 - ERROR - 31/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,423 - ERROR - 32/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,423 - ERROR - 33/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,424 - ERROR - 34/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,424 - ERROR - 35/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,425 - ERROR - 36/36 Bad value, 'None' found in Row. strptime() argument 1 must be str, not None
+2023-11-27 03:37:18,425 - INFO - Rows formatting Completed.
+2023-11-27 03:37:18,425 - INFO - Total Formatted Rows=0.
+2023-11-27 03:37:18,426 - INFO - Total Bad Rows=36.
+2023-11-27 03:37:18,600 - INFO - Adding 0 rows to database TripIdToDate_20231127
+2023-11-27 03:37:18,600 - ERROR - No rows to add.
+2023-11-27 03:37:18,638 - INFO - Added log: ['israel-public-transportation-2023-11-27.zip', 36, 0, 36]
+2023-11-27 03:37:18,639 - INFO - Writing bad rows file, C:\GTFS\Download\israel-public-transportation-2023-11-27_error.txt...
+2023-11-27 03:37:18,639 - INFO - C:\GTFS\Download\israel-public-transportation-2023-11-27_error.txt saved.
+2023-11-27 03:38:59,267 - INFO - Searching for zip files in folder.
+2023-11-27 03:38:59,391 - INFO - israel-public-transportation-2023-11-27.zip already found in database.
+2023-11-27 03:38:59,392 - INFO - Formatted Date:20231127 for file_name, TripIdToDate-2023-11-27.zip
+2023-11-27 03:38:59,399 - INFO - Reading Rows from files...
+2023-11-27 03:39:03,089 - INFO - Formatting Rows..,870377.
+2023-11-27 03:41:00,064 - INFO - Rows formatting Completed.
+2023-11-27 03:41:00,064 - INFO - Total Formatted Rows=870377.
+2023-11-27 03:41:00,064 - INFO - Total Bad Rows=0.
+2023-11-27 03:41:00,108 - INFO - Adding 870377 rows to database TripIdToDate_20231127
+2023-11-27 03:41:23,211 - INFO - Rows inserted in database 870377.
+2023-11-27 03:41:23,345 - INFO - Added log: ['TripIdToDate-2023-11-27.zip', 870377, 870377, 0]
+2023-11-27 03:41:23,346 - INFO - No badrows found.
+2023-11-27 03:42:39,776 - INFO - Searching for zip files in folder.
+2023-11-27 03:42:39,901 - WARNING - No new zipfile found in folder.
+2023-11-27 03:57:02,660 - INFO - Searching for zip files in folder.
+2023-11-27 03:57:02,779 - WARNING - No new zipfile found in folder.
+2023-11-27 03:57:06,819 - INFO - Searching for zip files in folder.
+2023-11-27 03:57:07,044 - WARNING - No new zipfile found in folder.
+2023-11-27 03:57:09,162 - INFO - Searching for zip files in folder.
+2023-11-27 03:57:09,495 - WARNING - No new zipfile found in folder.
+2023-11-27 03:57:11,261 - INFO - Searching for zip files in folder.
+2023-11-27 03:57:11,383 - WARNING - No new zipfile found in folder.

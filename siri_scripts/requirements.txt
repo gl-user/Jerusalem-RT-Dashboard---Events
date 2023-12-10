@@ -1,0 +1,4 @@
+psycopg2==2.9.6
+shapely==2.0.2
+redis==5.0.1
+azure-communication-email
